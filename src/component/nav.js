@@ -34,7 +34,7 @@ function Nav({ playlist }) {
         </div>
       </div>
     </div>
-  );
+);
 }
 const mapstateToProps = (state) => {
   return {

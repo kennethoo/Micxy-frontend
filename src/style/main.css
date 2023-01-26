@@ -352,7 +352,8 @@ button {
 .playlist-section {
   position: relative;
   width: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
   overflow: scroll;
 }
 .playlist-box::before {
